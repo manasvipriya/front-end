@@ -5,3 +5,4 @@ export const ShopCategory = () => {
     <div>ShopCategory</div>
   )
 }
+export default ShopCategory

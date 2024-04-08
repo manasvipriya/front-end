@@ -5,3 +5,4 @@ export const loginSignup = () => {
     <div>loginSignup</div>
   )
 }
+export default loginSignup

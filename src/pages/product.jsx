@@ -5,3 +5,4 @@ export const product = () => {
     <div>product</div>
   )
 }
+export default product
