@@ -2,7 +2,9 @@ import React from 'react'
 
 export const shop = () => {
   return (
-    <div>shop</div>
+    <div>
+        <hero/>
+    </div>
   )
 }
 export default shop

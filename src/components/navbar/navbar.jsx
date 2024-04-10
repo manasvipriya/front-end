@@ -15,10 +15,10 @@ const Navbar = () => {
                 <p>SHOPPER</p>
             </div>
             <ul className="nav-menu">
-                <li onClick={() => {setActiveMenu("shop")}}><Link to='/'>Shop</Link>{activeMenu==="shop"?<hr/>:<></>}</li>
-                <li onClick={() => {setActiveMenu("men")}}><Link to='/'>Men</Link>{activeMenu==="men"?<hr/>:<></>}</li>
-                <li onClick={() => {setActiveMenu("women")}}><Link to='/'>Women</Link>{activeMenu==="women"?<hr/>:<></>}</li>
-                <li onClick={() => {setActiveMenu("kids")}}><Link to='/'>kids</Link>{activeMenu==="kids"?<hr/>:<></>}</li>
+                <li onClick={() => {setActiveMenu("shop")}}><Link style={{ textDecoration: 'none' }} to='/shop'>Shop</Link>{activeMenu==="shop"?<hr/>:<></>}</li>
+                <li onClick={() => {setActiveMenu("men")}}><Link style={{ textDecoration: 'none' }} to='/men'>Men</Link>{activeMenu==="men"?<hr/>:<></>}</li>
+                <li onClick={() => {setActiveMenu("women")}}><Link style={{ textDecoration: 'none' }} to='/women'>Women</Link>{activeMenu==="women"?<hr/>:<></>}</li>
+                <li onClick={() => {setActiveMenu("kids")}}><Link style={{ textDecoration: 'none' }} to='/kids'>kids</Link>{activeMenu==="kids"?<hr/>:<></>}</li>
             </ul>
             <div className="nav-login-cart">
                 <Link to='/login'><button>Login</button></Link>
@@ -27,6 +27,6 @@ const Navbar = () => {
             </div>
         </div>
     );
-};
+}; 
 
 export default Navbar;
